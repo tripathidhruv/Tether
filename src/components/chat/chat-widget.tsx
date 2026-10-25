@@ -243,7 +243,7 @@ export function ChatWidget() {
               </button>
             </header>
 
-            <div ref={listRef} data-lenis-prevent className="flex-1 space-y-5 overflow-y-auto px-5 py-5" aria-live="polite">
+            <div ref={listRef} className="flex-1 space-y-5 overflow-y-auto px-5 py-5" aria-live="polite">
               {msgs.map((m) =>
                 m.role === "user" ? (
                   <div key={m.id} className="flex justify-end">

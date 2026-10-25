@@ -26,7 +26,7 @@ export function Sidebar() {
     <aside className="lg:sticky lg:top-4 lg:h-[calc(100vh-2rem)] lg:w-[248px] lg:shrink-0">
       <div className="flex h-full flex-col rounded-[28px] bg-surface p-4 lg:p-5">
         <div className="flex items-center justify-between px-1 lg:mb-8">
-          <Link href="/" aria-label="Tether home">
+          <Link href="/demo" aria-label="Tether overview">
             <Logo />
           </Link>
         </div>
@@ -60,9 +60,6 @@ export function Sidebar() {
           <p className="text-[14.5px] text-ink-3">Demo workspace</p>
           <p className="mt-0.5 font-semibold text-ink">{workspace.name}</p>
           <p className="mt-3 text-[14px] leading-relaxed text-ink-3">All data here is sample data, built around one hijacked agent.</p>
-          <Link href="/" className="mt-3 inline-block text-[14.5px] font-semibold text-leaf-ink underline-offset-4 hover:underline">
-            Back to the site
-          </Link>
         </div>
       </div>
     </aside>
