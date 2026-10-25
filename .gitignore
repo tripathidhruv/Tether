@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# media: Remotion sources are tracked, installs and renders are not
+/media/node_modules
+/media/out

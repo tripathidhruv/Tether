@@ -1,0 +1,45 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Manrope:wght@400..800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1280px;height:720px;overflow:hidden;background:#ECEFE9}
+  body{font-family:Manrope,sans-serif;color:#18231D;position:relative}
+  .d{font-family:Archivo,sans-serif;font-weight:800;font-stretch:78%;font-variation-settings:"wdth" 78}
+  .logo{position:absolute;left:64px;top:56px;display:flex;align-items:center;gap:14px}
+  .logo span{font-size:40px;line-height:1}
+  h1{position:absolute;left:58px;top:224px;font-size:112px;line-height:.94;letter-spacing:-.025em}
+  h1 .r{color:#B2463A;display:block}
+  .tag{position:absolute;left:64px;top:492px;display:inline-flex;align-items:center;gap:12px;background:#fff;border-radius:999px;padding:15px 26px 15px 20px;font-size:25px;font-weight:700;color:#2F3B34}
+  .tag i{width:14px;height:14px;border-radius:50%;background:#2E6A3E}
+  .card{position:absolute;right:56px;top:56px;width:460px;height:608px;background:#1F2B24;border-radius:40px;padding:36px 40px;color:#fff}
+  .agent{display:flex;align-items:center;justify-content:space-between}
+  .agent b{font-size:40px;line-height:.95}
+  .cut{background:#F5D9D4;color:#9B3A2F;border-radius:999px;padding:10px 24px;font-size:34px;line-height:1}
+  .ring{position:relative;width:230px;height:230px;margin:44px auto 0}
+  .ring svg{transform:rotate(-90deg)}
+  .ring .n{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .ring .n b{font-size:110px;line-height:.9}
+  .ring .n small{font-size:17px;font-weight:700;color:#C9D3CC;letter-spacing:.04em;margin-top:6px}
+  .row{margin-top:44px;background:#F5D9D4;color:#9B3A2F;border-radius:20px;padding:18px 20px;display:flex;align-items:center;gap:14px;font-size:28px;white-space:nowrap}
+  .row s{text-decoration-thickness:3px}
+  .chip{margin-top:16px;display:inline-flex;align-items:center;gap:10px;background:#E4DEF5;color:#56479A;border-radius:14px;padding:12px 18px;font-size:24px;font-weight:700;white-space:nowrap}
+</style></head>
+<body>
+  <div class="logo">
+    <svg width="52" height="52" viewBox="0 0 30 30"><rect width="30" height="30" rx="9" fill="#18231D"/><path d="M9 20 C 12 9, 18 21, 21 10" fill="none" stroke="#92C878" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="20" r="2.6" fill="#fff"/><circle cx="21" cy="10" r="2.6" fill="#fff"/></svg>
+    <span class="d">Tether</span>
+  </div>
+  <h1 class="d">Valid token.<span class="r">Hijacked agent.</span></h1>
+  <div class="tag"><i></i>Identity drift detection for AI agents</div>
+
+  <div class="card">
+    <div class="agent"><b class="d">Procurement Agent</b><span class="cut d">Cut</span></div>
+    <div class="ring">
+      <svg width="230" height="230"><circle cx="115" cy="115" r="101" fill="none" stroke="#2B3A31" stroke-width="22"/><circle cx="115" cy="115" r="101" fill="none" stroke="#E07A6C" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="92 100"/></svg>
+      <div class="n"><b class="d">92</b><small>DRIFT SCORE</small></div>
+    </div>
+    <div class="row d"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#9B3A2F" stroke-width="2.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg><span>file.read hr/salaries.csv</span></div>
+    <div class="chip">supplier_invoice.pdf</div>
+  </div>
+</body></html>
