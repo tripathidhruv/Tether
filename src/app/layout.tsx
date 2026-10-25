@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Archivo, JetBrains_Mono, Manrope } from "next/font/google";
+import { ChatWidget } from "@/components/chat/chat-widget";
 import "./globals.css";
 
 const archivo = Archivo({
@@ -27,7 +28,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${archivo.variable} ${manrope.variable} ${jetbrains.variable} h-full`}>
-      <body className="min-h-full">{children}</body>
+      <body className="min-h-full">
+        {children}
+        <ChatWidget />
+      </body>
     </html>
   );
 }
